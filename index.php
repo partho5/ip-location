@@ -3,7 +3,7 @@
 require_once 'config.php';
 require_once 'IpFetcher.php';
 
-$access_token = IPINFO_API_KEY;
+$access_token = IPINFO_API_KEY; //defined in config.php
 $ip_address = "8.8.8.8"; //ip address to lookup
 
 $ipInfoFetcher = new IPInfoFetcher($access_token);
